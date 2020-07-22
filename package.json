@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-async-AutomaticallyAddCatch",
+  "name": "babel-plugin-async-captures",
   "version": "1.0.0",
   "description": "a babel plugin that captures error of async function",
   "main": "lib/index.js",
@@ -13,13 +13,24 @@
     "@babel/cli": "^7.0.0",
     "@babel/preset-env": "^7.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18518300669/babel-plugin-async-AutomaticallyAddCatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/18518300669/babel-plugin-async-AutomaticallyAddCatch/issues"
+  },
+  "homepage": "https://github.com/18518300669/babel-plugin-async-AutomaticallyAddCatch#readme",
   "keywords": [
     "try",
     "catch",
     "babel",
     "plugin"
   ],
-  "author": "",
+  "files": [
+    "lib"
+  ],
+  "author": "jacktesla@foxmail.com",
   "license": "ISC",
   "devDependencies": {
     "glob": "^7.1.6"
